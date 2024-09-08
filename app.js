@@ -18,6 +18,7 @@ function pesquisar() {
         titulo = comando.titulo.toLowerCase();
         descricao = comando.descricao.toLowerCase();
         codigo = comando.codigo.toLowerCase();
+        tags = comando.tags.toLowerCase();
 
         if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             resultados += `
