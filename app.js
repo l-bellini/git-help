@@ -8,12 +8,9 @@ function pesquisar() {
 
     let resultados = "";
     let titulo = "";
-    let descricao = "";
+    let descricao = "";        
 
-
-    for (let comando of comandosGit) {                
-
-        console.log(comando.codigo);
+    for (let comando of comandosGit) {                                
 
         titulo = comando.titulo.toLowerCase();
         descricao = comando.descricao.toLowerCase();
@@ -21,6 +18,7 @@ function pesquisar() {
         tags = comando.tags.toLowerCase();
 
         if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
+            
             resultados += `
             <div class="item-resultado"> 
                 <h2>${comando.titulo}</h2> 

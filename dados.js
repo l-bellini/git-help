@@ -94,7 +94,7 @@ let comandosGit = [
         titulo: "git diff",
         descricao: "Mostra as diferenças entre commits, branches ou arquivos.",
         codigo: "git diff",
-        tags: "comparar diferenças comparar commits branches arquivos diff"
+        tags: "comparar diferenças comparar commits branches comparar arquivos diff"
     },
     {
         titulo: "git reset",
