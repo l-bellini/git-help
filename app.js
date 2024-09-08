@@ -19,7 +19,7 @@ function pesquisar() {
         descricao = comando.descricao.toLowerCase();
         codigo = comando.codigo.toLowerCase();
 
-        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa)) {
+        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             resultados += `
             <div class="item-resultado"> 
                 <h2>${comando.titulo}</h2> 
